@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chick-fil-A | Made Fresh. Served with Care.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">Chick-fil-A</a>
+            <nav class="nav-links" id="nav-links">
+                <a href="#menu" class="nav-item">Menu</a>
+                <a href="#catering" class="nav-item">Catering</a>
+                <a href="#rewards" class="nav-item">Rewards</a>
+                <a href="#locations" class="nav-item">Locations</a>
+                <a href="#about" class="nav-item">About</a>
+                <a href="#menu" class="btn btn-primary d-mobile-only" style="display:none; width:100%; margin-top:20px;">Order Now</a>
+            </nav>
+            <a href="#menu" class="btn btn-primary nav-cta">Order Now</a>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">☰</button>
+        </div>
+    </header>
+
+    <section class="hero" id="hero">
+        <div class="hero-bg"></div>
+        <div class="cow-pattern"></div>
+        <div class="container hero-content">
+            <h1>Made Fresh. Served with Care.</h1>
+            <p>Hand-breaded chicken, crispy waffle fries, and a smile — every single time.</p>
+            <span class="microcopy">⏳ Limited time: Peach Milkshake is back!</span>
+            <div class="hero-btns">
+                <a href="#menu" class="btn btn-primary">Order Now</a>
+                <a href="#menu" class="btn btn-outline">View Full Menu</a>
+            </div>
+        </div>
+        <a href="#social-proof" class="scroll-down" aria-label="Scroll down">▼</a>
+    </section>
+
+    <section id="social-proof" class="social-proof">
+        <div class="marquee">
+            <span>1,000+ Locations</span> • 
+            <span>Rated #1 Fast Food</span> • 
+            <span>4.8★ App Rating</span> • 
+            <span>Closed Sundays — Because People Matter</span> • 
+            <span>100M+ Meals Served</span> • 
+            <span>1,000+ Locations</span> • 
+            <span>Rated #1 Fast Food</span> • 
+            <span>4.8★ App Rating</span> • 
+            <span>Closed Sundays — Because People Matter</span> • 
+            <span>100M+ Meals Served</span>
+        </div>
+    </section>
+
+    <section id="menu" class="section bg-gray">
+        <div class="container">
+            <div class="text-center reveal">
+                <h2>Fan Favorites</h2>
+                <p>Freshly prepared items you know and love.</p>
+            </div>
+            
+            <div class="grid-4">
+                <div class="menu-card reveal">
+                    <div class="menu-icon">🍔</div>
+                    <h3>Original Chicken Sandwich</h3>
+                    <p>Hand-breaded, pressure-cooked, perfection.</p>
+                    <div class="price">$5.29</div>
+                    <button class="btn btn-primary" onclick="alert('Added to order!')">Add to Order</button>
+                </div>
+                
+                <div class="menu-card reveal" style="transition-delay: 0.1s;">
+                    <div class="menu-icon">🌶️</div>
+                    <h3>Spicy Deluxe</h3>
+                    <p>A spicy kick with pepper jack and bacon.</p>
+                    <div class="price">$6.45</div>
+                    <button class="btn btn-primary" onclick="alert('Added to order!')">Add to Order</button>
+                </div>
+                
+                <div class="menu-card reveal" style="transition-delay: 0.2s;">
+                    <div class="menu-icon">🍟</div>
+                    <h3>Waffle Potato Fries®</h3>
+                    <p>Crispy outside, tender inside, salted.</p>
+                    <div class="price">$2.99</div>
+                    <button class="btn btn-primary" onclick="alert('Added to order!')">Add to Order</button>
+                </div>
+                
+                <div class="menu-card reveal" style="transition-delay: 0.3s;">
+                    <div class="menu-icon">🧡</div>
+                    <h3>Chick-fil-A® Sauce</h3>
+                    <p>Our classic dipping sauce. A must-have.</p>
+                    <div class="price">Free</div>
+                    <button class="btn btn-primary" onclick="alert('Added to order!')">Add to Order</button>
+                </div>
+            </div>
+
+            <div class="text-center mt-2 reveal">
+                <a href="#menu" class="btn btn-outline-red">View Full Menu & Order</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section bg-light-red">
+        <div class="container">
+            <div class="text-center reveal mb-2">
+                <h2>The Chick-fil-A Difference</h2>
+                <p>Quality ingredients and care in everything we do.</p>
+            </div>
+
+            <div class="grid-3">
+                <div class="feature-item reveal">
+                    <div class="feature-icon">🍗</div>
+                    <h3>Hand-Breaded Daily</h3>
+                    <p>Our chicken is freshly breaded by hand in our restaurant kitchens every single day. We never cut corners on quality.</p>
+                    <a href="#about" class="btn btn-outline-red mt-1" style="min-height: 40px; padding: 8px 20px;">Watch Video</a>
+                </div>
+                
+                <div class="feature-item reveal" style="transition-delay: 0.1s;">
+                    <div class="feature-icon">🌿</div>
+                    <h3>No Antibiotics Ever</h3>
+                    <p>We serve 100% real, whole, boneless chicken breasts that have never been treated with antibiotics. Pure and simple.</p>
+                    <a href="#about" class="btn btn-outline-red mt-1" style="min-height: 40px; padding: 8px 20px;">Our Sourcing</a>
+                </div>
+
+                <div class="feature-item reveal" style="transition-delay: 0.2s;">
+                    <div class="feature-icon">🍋</div>
+                    <h3>Real Ingredients</h3>
+                    <p>From freshly squeezed lemons for our lemonade to real potatoes for our waffle fries. Real food just tastes better.</p>
+                    <a href="#about" class="btn btn-outline-red mt-1" style="min-height: 40px; padding: 8px 20px;">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="rewards" class="section bg-red">
+        <div class="container split-layout">
+            <div class="reveal">
+                <span class="microcopy" style="color:var(--text-dark); background:var(--secondary);">🎁 Free delivery on your first app order!</span>
+                <h2 style="font-size: 3rem;">Earn Points.<br>Get Free Food.</h2>
+                <p style="font-size: 1.2rem; margin-bottom: 2rem;">Join Chick-fil-A One® and start earning rewards on every order — from free sandwiches to exclusive member perks. It's our pleasure to reward you.</p>
+                <div style="display:flex; gap:15px; flex-wrap:wrap;">
+                    <a href="#rewards" class="btn btn-outline" style="background:var(--secondary); color:var(--primary);">Join for Free</a>
+                    <a href="#rewards" class="btn btn-outline">Download App</a>
+                </div>
+            </div>
+
+            <div class="reveal">
+                <div class="mock-phone">
+                    <div class="phone-notch"></div>
+                    <div class="phone-header">
+                        <h3>Chick-fil-A One®</h3>
+                        <p style="font-size: 0.9rem;">Silver Member</p>
+                    </div>
+                    <div class="phone-body">
+                        <div class="points-circle">
+                            <h4>1,250</h4>
+                            <span>Points</span>
+                        </div>
+                        <h3 style="font-size: 1.1rem; margin-bottom: 10px;">Available Rewards</h3>
+                        <div class="reward-item">
+                            <span style="font-size: 1.5rem;">🍟</span>
+                            <div>
+                                <h4 style="margin:0; font-size:1rem;">Large Waffle Fries</h4>
+                                <span style="font-size:0.8rem; color:var(--text-light);">400 pts</span>
+                            </div>
+                            <button class="btn-primary" style="margin-left:auto; border:none; padding:5px 10px; border-radius:15px; font-weight:bold; cursor:pointer;">Redeem</button>
+                        </div>
+                        <div class="reward-item">
+                            <span style="font-size: 1.5rem;">🥤</span>
+                            <div>
+                                <h4 style="margin:0; font-size:1rem;">Medium Fountain Drink</h4>
+                                <span style="font-size:0.8rem; color:var(--text-light);">300 pts</span>
+                            </div>
+                            <button class="btn-primary" style="margin-left:auto; border:none; padding:5px 10px; border-radius:15px; font-weight:bold; cursor:pointer;">Redeem</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="catering" class="section bg-checkered">
+        <div class="container">
+            <div class="catering-card text-center reveal">
+                <h2 style="color: var(--primary);">Feed Your Whole Crew</h2>
+                <p style="font-size: 1.2rem; margin-bottom: 2rem;">From office meetings to backyard parties, bring the taste everyone loves to your next gathering. Packaged with care and served with our signature hospitality.</p>
+                <div style="display:flex; gap:20px; justify-content:center; flex-wrap:wrap;">
+                    <a href="#catering" class="btn btn-primary">Get a Quote</a>
+                    <a href="#catering" class="btn btn-outline-red">View Catering Menu</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-gray">
+        <div class="container">
+            <div class="text-center reveal mb-2">
+                <h2>What People Are Saying</h2>
+            </div>
+            
+            <div class="grid-3">
+                <div class="testimonial-card reveal">
+                    <div class="stars">★★★★★</div>
+                    <p class="quote">"Best chicken sandwich in the game. Period."</p>
+                    <p class="author">— James T., Atlanta, GA</p>
+                    <a href="#order" class="btn btn-outline-red mt-1" style="width:100%; font-size:0.9rem;">Taste for yourself</a>
+                </div>
+                
+                <div class="testimonial-card reveal" style="transition-delay: 0.1s;">
+                    <div class="stars">★★★★★</div>
+                    <p class="quote">"The customer service is on another level. Always 'My pleasure!'"</p>
+                    <p class="author">— Maria S., Dallas, TX</p>
+                    <a href="#jobs" class="btn btn-outline-red mt-1" style="width:100%; font-size:0.9rem;">Join our team</a>
+                </div>
+                
+                <div class="testimonial-card reveal" style="transition-delay: 0.2s;">
+                    <div class="stars">★★★★★</div>
+                    <p class="quote">"Closed on Sundays and still the most successful fast food chain. That says it all."</p>
+                    <p class="author">— Kevin R., Nashville, TN</p>
+                    <a href="#about" class="btn btn-outline-red mt-1" style="width:100%; font-size:0.9rem;">Our Story</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="locations" class="section">
+        <div class="container text-center reveal">
+            <div class="location-finder">
+                <h2>Find a Chick-fil-A Near You</h2>
+                <p>Craving chicken? We're closer than you think.</p>
+                <form id="location-form" class="search-form">
+                    <input type="text" id="zip-input" placeholder="Enter your zip code or city" required aria-label="Enter zip code or city">
+                    <button type="submit" class="btn btn-primary">Find Locations</button>
+                </form>
+                <p style="font-size: 0.9rem; color: var(--text-light);">📍 3,000+ locations across the U.S.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <a href="#" class="footer-logo">Chick-fil-A</a>
+                    <p class="footer-tagline">"Eat Mor Chikin"</p>
+                    <div class="social-links">
+                        <a href="#twitter" aria-label="Twitter">Twitter/X</a>
+                        <a href="#instagram" aria-label="Instagram">Instagram</a>
+                        <a href="#tiktok" aria-label="TikTok">TikTok</a>
+                        <a href="#facebook" aria-label="Facebook">Facebook</a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#menu">Order Food</a></li>
+                        <li><a href="#catering">Catering</a></li>
+                        <li><a href="#rewards">Chick-fil-A One®</a></li>
+                        <li><a href="#locations">Find a Restaurant</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4>Menu</h4>
+                    <ul>
+                        <li><a href="#menu">Breakfast</a></li>
+                        <li><a href="#menu">Entrées</a></li>
+                        <li><a href="#menu">Sides</a></li>
+                        <li><a href="#menu">Beverages</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#about">Who We Are</a></li>
+                        <li><a href="#about">Careers</a></li>
+                        <li><a href="#about">Customer Support</a></li>
+                        <li><a href="#about">Franchising</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 CFA Properties, Inc. All rights reserved.</p>
+                <p class="closed-sundays">Closed on Sundays</p>
+                <p>
+                    <a href="#" style="margin-right:15px; color:#bbb;">Privacy Policy</a>
+                    <a href="#" style="color:#bbb;">Terms & Conditions</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+    <div class="container nav-container">
+    <a href="#" class="logo">Chick-fil-A</a>
+    
+    <nav class="nav-links" id="nav-links">
+        <a href="#menu" class="nav-item">Menu</a>
+        <a href="#catering" class="nav-item">Catering</a>
+        <a href="#rewards" class="nav-item">Rewards</a>
+        <a href="#locations" class="nav-item">Locations</a>
+    </nav>
+
+    <a href="#menu" class="btn btn-primary nav-cta">Order Now</a>
+    
+    <button class="hamburger" id="hamburger">☰</button>
+</div>
+
+<div class="mobile-sticky-cta">
+    <a href="#menu" class="btn btn-primary full-width">Order Now</a>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
